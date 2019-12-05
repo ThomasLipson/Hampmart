@@ -1,0 +1,145 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+} 
+
+
+.container{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    height:90%;
+    
+    
+}
+
+#header{
+    background: #1f69d1;
+    color: black;
+    height: 120px;
+    position: relative;
+    border-bottom: #efe834 6px solid;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  
+
+}
+#cart{
+    position: absolute;
+    top: 35%;
+    font-style: normal;
+    font-family: fontAwesome;
+    right:2%;
+    
+}
+#cart a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+header form{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    right:
+    
+}
+
+header input[type="search"]{
+    height: 35px;
+    width: 250px;
+    font-size:20px;
+}
+header button[type="submit"]{
+    height: 35px;
+    
+}
+
+.box{
+    width:50%;
+    height:400px;
+    float:left;
+    margin:none;
+    
+}
+.text-box{
+    width:80%;
+    display:block;
+    padding:1em;
+    margin:auto;
+    top:10%;
+    position:relative;
+    color:white;
+    font-size:20.5px;
+}
+
+.box2{
+    background-image: url(/images/kern\,jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin:none;
+    background-position: bottom;
+
+}
+
+.box1{
+    background-color: #052457;
+    text-align: center;
+}
+
+#h1{
+    position:absolute;
+    top:50%;
+    right:50%;
+}
+
+.grids{
+
+text-align: center;
+}
+
+.grids > div{
+position:relative;
+text-align: center;
+width:300px;
+display:inline-block;
+margin-left:140px;
+margin-right: 140px;
+margin-top:155px;
+
+}
+
+.grids p{
+    position:absolute;
+    text-align: center;
+    bottom: -108px;
+    right:106px;
+    padding-bottom: 50px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+footer{
+    position: fixed;
+    top: 91%;
+    left: 45%;
+    padding-top: 50px;
+    
+  
+}
+@media only screen and (max-width: 1000px){
+    .box2{
+        float:none;
+        width:100%;
+
+    
+    }
+    
+    .box1{
+        float:none;
+        width:100%;
+
+}
